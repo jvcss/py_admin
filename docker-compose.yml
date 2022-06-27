@@ -6,7 +6,7 @@ services:
     environment:
       MYENV: EXAMPLE
     volumes:
-      - .:/code
+      - .:/pyadmin
   web_migrate:
     extends:
       service: web
