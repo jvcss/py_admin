@@ -7,7 +7,7 @@
 - `pip install virtualenvwrapper-win`
 - `python -m virtualenv .`
 ### Or
-- `python -m virtualenv admin_django -p=<C:/Python310/python.exe>`
+- `python -m virtualenv py_admin -p=<C:/Python310/python.exe>`
 ### Run *enviroment*
 - `.\scripts\activate`
 - `workon`
@@ -18,7 +18,6 @@
 ## Install Django
 
 - `pip install -r requirements.txt`
----
 
 # Create Django App
 
@@ -26,8 +25,10 @@
 - `cd py_admin`
 - `workon py_admin_app`
 
+
+---
+
 ## Complete admin app creation 
 
 - `python manage.py startapp py_app`
-- `cd ../py_app`
 - `python manager.py runserver`
