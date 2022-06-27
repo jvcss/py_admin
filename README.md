@@ -8,7 +8,7 @@
 - `pip install virtualenvwrapper-win`
 - `python -m virtualenv .`
 ### Or
-- `python -m virtualenv py_admin -p=<C:/Python310/python.exe>`
+- `python -m virtualenv py_admin -p=C:/Python310/python.exe`
 ### Run *enviroment*
 - `.\scripts\activate`
 - `workon`
