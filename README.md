@@ -25,11 +25,9 @@
 - `django-admin startproject py_admin`
 - `cd py_admin`
 - `workon py_admin_app`
-
-
----
-
-## Complete admin app creation 
-
 - `python manage.py startapp py_app`
 - `python manager.py runserver`
+
+
+# Run Docker Image
+- `docker-compose run web django-admin startproject composeexample .`
