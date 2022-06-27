@@ -1,7 +1,5 @@
 # Django Admin
 
-` It's important remember the virt-env has nothing related to the python`
-
 ## Install Virtual Env and Create App Env
 
 - `pip install virtualenvwrapper-win`
