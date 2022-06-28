@@ -7,7 +7,21 @@ from django.db import models
 from django.contrib.auth.models import User
 
 # Create your models here.
+class PrecoCubustivel:
+    id: int
+    regiao: str
+    estado: str
+    municipio: str
+    revenda: str
+    cnpj_revenda: int
+    produto: str
+    data_coleta: str
+    valor_venda: int
+    valor_compra: int
+    unidade_medida: str
+    bandeira: str
 
+    
 class entidade:
     def regiao():
         pass

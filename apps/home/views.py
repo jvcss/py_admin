@@ -9,6 +9,7 @@ from django.http import HttpResponse, HttpResponseRedirect
 from django.template import loader
 from django.urls import reverse
 
+from .models import PrecoCubustivel
 
 @login_required(login_url="/login/")
 def index(request):
