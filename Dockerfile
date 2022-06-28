@@ -1,8 +1,14 @@
 # syntax=docker/dockerfile:1
 FROM python:3
-ENV PYTHONDONTWRITEBYTECODE=1
 ENV PYTHONUNBUFFERED=1
-WORKDIR /pyadmin
-COPY requirements.txt /pyadmin/
+RUN mkdir /code
+WORKDIR /code
+ADD requirements.txt /code/
+COPY . /code/
 RUN pip install -r requirements.txt
-COPY . /pyadmin/
+RUN django-admin.py startproject djangoproject
+RUN mkdir /code/djangoproject/media && mkdir /code/djangoproject/static
+VOLUME /code
+WORKDIR /code/djangoproject
+EXPOSE 8000
+CMD ["python", "manage.py", "runserver", "0.0.0.0:8000"]
