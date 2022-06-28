@@ -5,9 +5,9 @@
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
-  <!-- Main links -->
+  <!-- Main links https://django-dashboard-dattaable.appseed.us -->
   <url>
-    <loc>https://django-dashboard-dattaable.appseed.us</loc>
+    <loc>https://example.com</loc>
     <priority>1</priority>
     <changefreq>monthly</changefreq>
   </url>

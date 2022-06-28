@@ -88,3 +88,18 @@ $ # Access the web app in browser: http://127.0.0.1:8000/
 ```
 
 > Note: To use the app, please access the registration page and create a new user. After authentication, the app will unlock the private pages.
+
+
+asgiref==3.4.1
+autopep8==1.5.7
+dj-database-url==0.5.0
+Django==3.2.13
+gunicorn==20.1.0
+pycodestyle==2.7.0
+python-decouple==3.4
+pytz==2021.1
+sqlparse==0.4.2
+toml==0.10.2
+tzdata==2022.1
+Unipath==1.1
+whitenoise==5.3.0
