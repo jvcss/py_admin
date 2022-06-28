@@ -1,7 +1,6 @@
 ![Py Admin Django](https://github.com/jvcss/py_admin/actions/workflows/django_up.yml/badge.svg)
 # Django Admin
 
-` It's important remember the virt-env has nothing related to the python`
 
 ## Install Virtual Env and Create App Env
 
