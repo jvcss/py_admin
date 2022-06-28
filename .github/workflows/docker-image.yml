@@ -16,7 +16,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Build the compose image
+      #run: |
+      #  docker-compose run web django-admin startproject composeexample .
       run: |
-        docker-compose run web django-admin startproject composeexample .
-     # run: |
-     #   docker build -t pyadmin .
+        docker build -t pyadmin .
