@@ -5,9 +5,9 @@ Copyright (c) 2019 -
 
 from django.db import models
 from django.contrib.auth.models import User
-
+#SerieHistoricaDePrecosDeCombustiveis
 # Create your models here.
-class PrecoCubustivel:
+class SerieHistoricaDePrecosDeCombustiveis:
     id: int
     regiao: str
     estado: str
@@ -20,9 +20,6 @@ class PrecoCubustivel:
     valor_compra: int
     unidade_medida: str
     bandeira: str
-
-    
-class entidade:
     def regiao():
         pass
     def estado():
